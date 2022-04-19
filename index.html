@@ -22,18 +22,24 @@
 </head>
 <body>
 
-<header>
+<header class="header">
 
-  <nav class="flex">
-    <a href="/" class="logo">
+  <nav class="flex flex-jc-sb flex-ai-c">
+    <a href="/" class="header__logo">
       <img src="images/logo.svg" alt="Easybank">
     </a>
 
-    <a href="#" class="hamburger">
+    <a href="#" class="header__menu hide-for-desktop">
       <span></span>
       <span></span>
       <span></span>
     </a>
+
+    <div class="header__links hide-for-mobile">
+      <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a><a href="#">Blog</a><a href="#">Career</a>
+    </div>
+
+    <a href="#" class="button header__cta hide-for-mobile">Request Invite</a>
   </nav>
 </header>
 
