@@ -90,10 +90,6 @@ button, .button {
   margin-bottom: 3px;
 }
 
-.header__links {
-  border: 1px solid red;
-}
-
 .header__links a {
   position: relative;
   font-size: 0.875rem;
