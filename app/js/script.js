@@ -19,6 +19,3 @@ bthHamburger.addEventListener('click', ()=>{
 
     }
 })
-
-
-console.log("Push Test")
