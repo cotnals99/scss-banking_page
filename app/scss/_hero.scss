@@ -1,13 +1,14 @@
 .hero {
 
     background-color: $veryLightGray;
+
     .container{
         @include breakpoint-up(large){
             display:flex;
             align-items: center;
 
     }
-    }
+}
 
     &__image {
         position: relative;
@@ -19,7 +20,7 @@
 
         @include breakpoint-up(medium){
             min-height: 25rem;
-            background-position: center 60%;
+            background-position: center 70%;
         }
 
         @include breakpoint-up(large){
@@ -69,18 +70,14 @@
                 height: 120%;
                 width: 122%;
                 background-size: 94%;
-                background-position: center 180%;
-                left:20%;
+                background-position: center 150%%;
+                left:22%;
 
             }
 
         }
 
-
-
-
     }
-
 
 
     &__text{
@@ -90,24 +87,6 @@
             flex: 2;
             order: 1;
             text-align: left;
-        }
-
-
-        h1{
-            font-weight: 300;
-            font-size: 2.31rem;
-            line-height: 1.15;
-            color: $darkBlue;
-            margin-bottom: 1.5rem;
-
-            @include breakpoint-up(large){
-                font-size: $font-xlg;
-            }
-        }
-
-        p {
-            line-height: 1.15;
-            margin-bottom: 2.25rem;
         }
     }
 }
